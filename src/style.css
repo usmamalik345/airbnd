@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+nav{
+    height: 70px;
+    display: flex;
+    /* background-color: blue; */
+    padding: 1px 1px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+section{
+    padding: 20px;
+}
+
+.Hero{
+
+    display: flex;
+    flex-direction: column;
+
+}
+.Hero-img{
+    max-width: 400px;
+    align-self: center;
+}
+
+.Hero-header{
+    margin-bottom: 12px;
+}
+
+.Hero-text{
+    margin-top: 0px;
+}
+
+.Card{
+    width: 175px;
+    font-size: 12px;
+      
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.Card-img{
+    width: 100%;
+    border-radius: 9px;
+}
+/* .Card-stats{
+    display: flex;
+    align-items: center;
+
+} */
+.Card-star{
+    width: 12px;
+}
+
+.card-badge{
+
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
